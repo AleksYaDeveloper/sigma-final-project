@@ -1,0 +1,88 @@
+.footer {
+  background-color: $bg-header;
+  color: white;
+  margin: 0 auto;
+}
+
+.footer-wrapper {
+  display: flex;
+  gap: 20%;
+  justify-content: center;
+}
+
+.footer-left-block {
+  width: 40%;
+  margin-top: 72px;
+  h2 {
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+  }
+  span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #ffffff;
+  }
+}
+
+.footer-right-block {
+  margin-top: 72px;
+  div {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #bfbfbf;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  h2 {
+    margin-top: 0;
+  }
+  p {
+    margin-bottom: 0;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #ffffff;
+  }
+  section {
+    display: flex;
+    gap: 0px;
+    margin-top: 30px;
+  }
+}
+
+.footer-socials-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 48px;
+    height: 48px;
+  }
+  a:hover {
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 48px;
+  }
+}
+
+.footer-email a:link,
+a:visited {
+  color: inherit;
+  text-decoration: underline;
+}

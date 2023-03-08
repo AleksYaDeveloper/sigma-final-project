@@ -1,0 +1,10 @@
+export { default as ButtonFunc } from "./ButtonFunc";
+export { default as Header } from "./Header";
+export { default as HeroBlock } from "./HeroBlock";
+export { default as Service } from "./Service";
+export { default as About } from "./About";
+export { default as Successful } from "./Successful";
+export { default as Footer } from "./Footer";
+export { default as Testimonials } from "./Testimonials";
+export { default as Layout } from "./Layout";
+export { default as LayoutPage } from "./LayoutPage";
