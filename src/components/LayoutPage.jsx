@@ -5,6 +5,7 @@ import About from "./About";
 import Successful from "./Successful";
 import Testimonials from "./Testimonials";
 import Footer from "./Footer";
+import Loader from "./Loader";
 
 function LayoutPage() {
   // скролл вверх при переключении страницы
@@ -15,6 +16,7 @@ function LayoutPage() {
 
   return (
     <>
+      <Loader />
       <Header />
       <HeroBlock />
       <Service />

@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import loader from "./Loader";
 import Header from "./Header";
 import HeroBlock from "./HeroBlock";
 import Service from "./Service";

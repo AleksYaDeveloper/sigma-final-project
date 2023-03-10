@@ -8,3 +8,4 @@ export { default as Footer } from "./Footer";
 export { default as Testimonials } from "./Testimonials";
 export { default as Layout } from "./Layout";
 export { default as LayoutPage } from "./LayoutPage";
+export { default as Loader } from "./Loader";
