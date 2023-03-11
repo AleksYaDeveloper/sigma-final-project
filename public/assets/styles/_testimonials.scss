@@ -199,11 +199,12 @@ li {
   position: absolute;
   top: 10%; // настройка положения кнопок
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 55px;
+  height: 37px;
   border-radius: 50%;
   background-color: #fff;
-  border: 2px solid #000;
+  border: 3px solid #37806b;
+  background-color: #fff;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
@@ -244,5 +245,11 @@ li {
 }
 .slick-prev:before,
 .slick-next:before {
-  content: icon;
+  content: none;
+}
+@media (max-width: 767px) {
+  .slick-prev:before,
+  .slick-next:before {
+    margin: 5px;
+  }
 }
